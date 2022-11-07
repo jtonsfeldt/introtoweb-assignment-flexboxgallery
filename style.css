@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(rgb(255, 150, 60), rgb(40, 255, 100), rgb(255, 40, 112));
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    width: 95%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 36pt;
+    font-weight: 700;
+    text-shadow: 3px 3px rgb(255, 150, 60), 6px 6px rgb(40, 255, 100), 9px 9px rgb(255, 40, 112);
+}
+
+h2 {
+    font-size: 24pt;
+    font-weight: 700;
+    text-shadow: 3px 3px rgb(255, 150, 60), 6px 6px rgb(40, 255, 100), 9px 9px rgb(255, 40, 112);
+}
+
+span {
+    font-size: 24pt;
+    font-weight: 700;
+    text-shadow: 3px 3px rgb(235, 255, 60)
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1%;
+    align-content: center;
+    text-align: center;
+    font-size: 14pt;
+    width: 100%;
+}
+
+.box {
+    /*height: 30%;*/
+    width: 30%;
+    border: solid 10px rgb(255, 255, 255);
+    margin: 1%;
+}
+
+.prompt {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1%;
+    align-content: center;
+    text-align: center;
+    font-size: 18pt;
+    width: 100%;
+}
+
+
